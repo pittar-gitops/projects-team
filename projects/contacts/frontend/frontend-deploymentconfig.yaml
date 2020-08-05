@@ -54,7 +54,6 @@ spec:
   triggers:
   - type: ImageChange
     imageChangeParams:
-      automatic: false
       containerNames:
       - frontend
       from:
