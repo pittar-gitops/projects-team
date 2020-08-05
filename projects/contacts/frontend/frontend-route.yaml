@@ -10,6 +10,7 @@ metadata:
     app.kubernetes.io/part-of: mean-app
   name: frontend
 spec:
+  host: frontend.apps.example.com
   port:
     targetPort: 8080-tcp
   tls:
