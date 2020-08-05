@@ -1,0 +1,3 @@
+[
+    {"op": "replace", "path": "/spec/host", "value": "contacts-dev.apps.cluster-eb84.eb84.example.opentlc.com"}
+]

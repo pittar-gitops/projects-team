@@ -17,3 +17,15 @@ patchesJson6902:
     kind: DeploymentConfig
     name: frontend
   path: frontend-deploymentconfig-patch.json
+- target:
+    group: route.openshift.io
+    version: v1
+    kind: Route
+    name: backend
+  path: backend-route-patch.json
+- target:
+    group: route.openshift.io
+    version: v1
+    kind: Route
+    name: frontend
+  path: frontend-route-patch.json
