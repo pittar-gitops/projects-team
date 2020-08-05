@@ -26,7 +26,7 @@ spec:
       - name: APP_NAME
         value: frontend
       - name: PROJECT_BASE
-        value: mean-app
+        value: contacts
       - name: GIT_SOURCE_URL
         value: https://github.com/pittar/mean-frontend.git
       - name: GIT_SOURCE_REF
